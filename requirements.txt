@@ -1,0 +1,8 @@
+langchain-core==0.2.24
+langserve==0.2.2
+langchain-community==0.2.10
+langchain-openai==0.1.19
+python-dotenv==1.0.1
+langfuse==2.39.3
+fastapi==0.110.3
+pydantic==1.10.13
