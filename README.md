@@ -1,7 +1,57 @@
 # LangChain Playground
 
 This repository serves as a playground to demonstrate various tools and functionalities available in the LangChain framework. It includes implementations of two key use cases: **Simple RAG with PDF Loader** and **Adaptive RAG**. Both use cases are configured with monitoring using LangFuse and can be accessed via a FastAPI-based API.
+## Structure
 
+The solutions are configured inside ```app/chains/pdf_rag.py``` and ```app/graphs/adaptive_rag/```. The API is define on ```app/server.py```.
+
+```
+langchain-app
+├── README.md
+├── app
+│   ├── chains       
+│   │   └── pdf_rag.py      
+│   ├── graphs                  
+│   │   └── adaptive_rag    
+│   │       ├── edges           
+│   │       │   └── edges.py
+│   │       ├── nodes
+│   │       │   ├── answer_generator.py
+│   │       │   ├── answer_grader.py
+│   │       │   ├── hallucination_grader.py
+│   │       │   ├── index.py
+│   │       │   ├── question_re_writer.py
+│   │       │   ├── question_router.py
+│   │       │   ├── retrieval_grader.py
+│   │       │   └── web_search.py
+│   │       ├── graph.py
+│   │       └── state.py
+│   ├── client.py
+│   ├── server.py
+│   └── vectorstores
+│       ├── chroma.py
+│       ├── faiss.py
+│       └── utils.py
+├── docs
+│   └── images
+│       ├── adaptive_rag.png
+│       ├── api.png
+│       ├── client_script.png
+│       ├── langfuse.png
+│       └── pdf_chain.png
+├── documents
+│   ├── levisbk
+│   │   ├── common_questions.txt
+│   │   └── faiss_index
+│   │       ├── index.faiss
+│   │       └── index.pkl
+│   └── nike_form_2023
+│       ├── faiss_index
+│       │   ├── index.faiss
+│       │   └── index.pkl
+│       └── nike_form_10k_2023.pdf
+└── requirements.txt
+```
 ## Use Cases
 
 ### 1. Simple RAG with PDF Loader
