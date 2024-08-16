@@ -1,0 +1,90 @@
+# Common Customer Questions and Step-by-Step Solutions
+
+## 1. Is my motorcycle still under warranty?
+**Step-by-Step Instructions:**
+1. **Access the LeviSBK Portal**: Log in to the LeviSBK online portal using your credentials.
+2. **Navigate to the "Warranties" Section**: From the main menu, click on "Warranties" to check your motorcycle's coverage.
+3. **Enter the Serial Number**: Input your motorcycle's serial number, which can be found in the owner's manual.
+4. **Check the Status**: The portal will display whether your motorcycle is still under warranty, the remaining period, and the components covered.
+5. **Consult the Owner's Manual**: For more details on warranty coverage, refer to the "Warranty" section in the manual.
+
+## 2. What is the status of my service request?
+**Step-by-Step Instructions:**
+1. **Access the LeviSBK Portal**: Log in to the online portal and go to the "My Services" section.
+2. **Select "Ongoing Orders"**: Here, you'll see a list of all active service requests.
+3. **Click on the Specific Order**: Choose the service you want to track to view the current status, such as "In Progress," "Completed," or "Awaiting Parts."
+4. **Receive Updates**: If you want to receive notifications via SMS or email, enable the "Notifications" option in the portal.
+
+## 3. How long will it take to repair my motorcycle?
+**Step-by-Step Instructions:**
+1. **Check the Service Status**: Access the LeviSBK portal and check the service status as described in Question 2.
+2. **Review the Estimated Time**: The detailed service status usually includes an estimated time for completion.
+3. **Contact Support via Portal**: If you need a more accurate estimate, use the chat function or send a message to support directly through the portal.
+4. **Consult the Manual**: Refer to the owner's manual for typical repair times for similar issues.
+
+## 4. What are the costs involved in the service?
+**Step-by-Step Instructions:**
+1. **Access "My Services" in the Portal**: Log in to the portal and go to the "My Services" section.
+2. **Review the Cost Breakdown**: Click on the specific service to see the detailed cost breakdown, including parts and labor.
+3. **Consult the Price List on the Portal**: In the "Services" section, you can access a standard price list for the most common services.
+4. **Use the Cost Estimator**: If available, use the cost estimator on the portal to estimate the price of new services.
+5. **Consult the Manual**: Check the manual for recommended maintenance or repair costs.
+
+## 5. How do I schedule a maintenance service?
+**Step-by-Step Instructions:**
+1. **Access the "Schedule Service" Section in the Portal**: In the LeviSBK portal, click on "Schedule Service."
+2. **Select the Desired Maintenance**: Choose the type of maintenance you need, such as periodic inspection, oil change, etc.
+3. **Choose a Date and Time**: Select an available date and time for the service.
+4. **Confirm the Appointment**: Review the details and confirm the appointment. You will receive a confirmation via email.
+5. **Consult the Manual**: Check the manual for the recommended maintenance interval to ensure you are following the proper schedule.
+
+## 6. Do you offer original replacement parts?
+**Step-by-Step Instructions:**
+1. **Access the Parts Store on the Portal**: In the LeviSBK portal, go to the "Parts and Accessories" section.
+2. **Search for the Required Part**: Use the search bar to find the part you need.
+3. **Verify Authenticity**: All parts available on the portal are genuine LeviSBK parts, and this will be indicated on the product page.
+4. **Consult the Manual**: The owner's manual may provide information on the original parts recommended for your motorcycle.
+5. **Make the Purchase**: Add the part to your cart and complete the purchase directly through the portal.
+
+## 7. How can I track the progress of my repair?
+**Step-by-Step Instructions:**
+1. **Check the Service Status in the Portal**: As described in Question 2, access "My Services" and select the specific order.
+2. **Enable Real-Time Notifications**: In the portal, enable notifications to receive updates via SMS or email about the repair progress.
+3. **Review the Service History**: On the order page, you can view the history of actions and completed steps.
+4. **Consult the Manual**: To understand the steps involved in the repair, consult the manual, especially for common services like brake or oil changes.
+
+## 8. What if the problem is not resolved after the repair?
+**Step-by-Step Instructions:**
+1. **Reopen the Order in the Portal**: Access "My Services" and select the completed service. Click on the "Reopen Order" option if the problem persists.
+2. **Describe the Persistent Issue**: Fill out the form with a detailed description of the ongoing problem.
+3. **Wait for Assistance Contact**: A specialist will contact you to schedule a new evaluation.
+4. **Consult the Manual**: Check if there are any additional recommendations in the manual for continuous problems related to the completed service.
+
+## 9. My motorcycle is experiencing problems; what should I do?
+**Step-by-Step Instructions:**
+1. **Access the Diagnosis Section on the Portal**: In the LeviSBK portal, go to the "Diagnosis" section.
+2. **Follow the Diagnosis Instructions**: Use the online tools to identify the problem by answering questions about the symptoms.
+3. **Schedule a Service if Necessary**: If the issue requires technical intervention, schedule a service directly through the portal.
+4. **Consult the Manual**: The owner's manual may offer quick solutions for minor issues, such as belt adjustment or battery check.
+
+## 10. How do I request a refund or exchange?
+**Step-by-Step Instructions:**
+1. **Access "Refund/Exchange Requests" in the Portal**: In the LeviSBK portal, go to the refunds or exchanges section.
+2. **Fill Out the Request Form**: Complete the form with all necessary details, such as the reason for the request, serial number, etc.
+3. **Submit the Request**: After filling out the form, submit it and wait for confirmation via email.
+4. **Consult the Manual**: The manual may provide information on the terms and conditions for refunds or exchanges.
+
+## 11. Do you offer support for customizations?
+**Step-by-Step Instructions:**
+1. **Access the "Customizations" Section on the Portal**: On the portal, click on "Customizations" to see the available options.
+2. **Check the Warranty Rules**: Before proceeding, review the warranty rules on the portal or in the manual to understand which modifications are allowed.
+3. **Select the Accessories or Customization Services**: Choose the items or services you want, such as custom paint or accessory installation.
+4. **Schedule a Service**: If the customization requires installation, schedule the service directly through the portal.
+5. **Consult the Manual**: For more details on allowed and recommended customizations, consult the owner's manual.
+
+## 12. How can I provide feedback on the service I received?
+**Step-by-Step Instructions:**
+1. **Access the "Feedback" Section on the Portal**: On the portal, go to the "Feedback" or "Reviews" section.
+2. **Fill Out the Feedback Form**: Answer questions about your experience with the service, including quality, customer service, and response time.
+3. **Submit the Feedback**: After completing, submit the feedback. It will be used to improve LeviSBK's services.
+4. **Consult the Manual**: If you have suggestions based on recommendations from the manual, mention them in your feedback.
