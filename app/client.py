@@ -13,7 +13,7 @@ print("Response:", response.json()["output"]["answer"])
 
 query = "Is my motorcycle still under warranty?"
 
-url = "http://127.0.0.1:8000/graph/adaptative_rag/invoke"
+url = "http://127.0.0.1:8000/graph/adaptive_rag/invoke"
 data = {"input": {"question": query}, "config": {}, "kwargs": {}}
 
 response = requests.post(url, json=data, timeout=60)

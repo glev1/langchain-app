@@ -1,14 +1,14 @@
 from langgraph.graph import END, StateGraph, START
 
-from graphs.adaptative_rag.state import GraphState
+from graphs.adaptive_rag.state import GraphState
 
-from graphs.adaptative_rag.nodes.index import retrieve
-from graphs.adaptative_rag.nodes.web_search import web_search
-from graphs.adaptative_rag.nodes.answer_generator import generate
-from graphs.adaptative_rag.nodes.question_re_writer import transform_query
-from graphs.adaptative_rag.nodes.retrieval_grader import grade_documents
+from graphs.adaptive_rag.nodes.index import retrieve
+from graphs.adaptive_rag.nodes.web_search import web_search
+from graphs.adaptive_rag.nodes.answer_generator import generate
+from graphs.adaptive_rag.nodes.question_re_writer import transform_query
+from graphs.adaptive_rag.nodes.retrieval_grader import grade_documents
 
-from graphs.adaptative_rag.edges.edges import (
+from graphs.adaptive_rag.edges.edges import (
     decide_to_generate,
     grade_generation_v_documents_and_question,
     route_question,
@@ -58,4 +58,4 @@ workflow.add_conditional_edges(
 )
 
 # Compile
-adaptative_rag = workflow.compile()
+adaptive_rag = workflow.compile()

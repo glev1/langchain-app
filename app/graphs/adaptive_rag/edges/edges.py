@@ -1,6 +1,6 @@
-from graphs.adaptative_rag.nodes.answer_grader import answer_grader
-from graphs.adaptative_rag.nodes.question_router import question_router
-from graphs.adaptative_rag.nodes.hallucination_grader import (
+from graphs.adaptive_rag.nodes.answer_grader import answer_grader
+from graphs.adaptive_rag.nodes.question_router import question_router
+from graphs.adaptive_rag.nodes.hallucination_grader import (
     hallucination_grader,
 )
 

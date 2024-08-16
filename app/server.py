@@ -8,7 +8,7 @@ from langfuse.callback import CallbackHandler
 from pydantic import BaseModel
 
 from chains.pdf_rag import pdf_rag_chain
-from graphs.adaptative_rag.graph import adaptative_rag
+from graphs.adaptive_rag.graph import adaptive_rag
 
 from dotenv import load_dotenv
 
@@ -47,10 +47,10 @@ class GraphInput(BaseModel):
 
 add_routes(
     app,
-    adaptative_rag.with_types(
+    adaptive_rag.with_types(
         input_type=GraphInput, output_type=dict
     ).with_config(config),
-    path="/graph/adaptative_rag",
+    path="/graph/adaptive_rag",
 )
 
 
