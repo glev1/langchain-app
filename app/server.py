@@ -8,8 +8,10 @@ from langfuse.callback import CallbackHandler
 from pydantic import BaseModel
 
 from chains.pdf_rag import pdf_rag_chain
+from graphs.adaptative_rag.graph import adaptative_rag
 
 from dotenv import load_dotenv
+
 load_dotenv()
 
 langfuse_handler = CallbackHandler()
@@ -28,13 +30,27 @@ add_routes(
     path="/openai",
 )
 
-class Input(BaseModel):
+class ChainInput(BaseModel):
     input: str
-    
+
+
 add_routes(
     app,
-    pdf_rag_chain.with_types(input_type=Input).with_config(config),
-    path="/pdf_rag",
+    pdf_rag_chain.with_types(input_type=ChainInput).with_config(config),
+    path="/chain/pdf_rag",
+)
+
+
+class GraphInput(BaseModel):
+    question: str
+
+
+add_routes(
+    app,
+    adaptative_rag.with_types(
+        input_type=GraphInput, output_type=dict
+    ).with_config(config),
+    path="/graph/adaptative_rag",
 )
 
 

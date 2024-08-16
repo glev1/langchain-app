@@ -5,7 +5,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 
 from vectorstores.faiss import get_faiss_vector_store
 
-vectorstore = get_faiss_vector_store("./documents/pdf/")
+vectorstore = get_faiss_vector_store("./documents/nike_form_2023/")
 retriever = vectorstore.as_retriever()
 
 # Model
