@@ -31,7 +31,7 @@ Both use cases are integrated with **LangFuse** for real-time monitoring and ana
 
 1. Clone this repository:
     ```bash
-    cd $HOME && git clone https://github.com/glev1/langchain-playground.git
+    cd $HOME && git clone git@github.com:glev1/langchain-app.git
     cd $HOME/langchain-playground
     ```
 
