@@ -31,11 +31,11 @@ app = FastAPI(
     description="A simple api server using Langchain's Runnable interfaces",
 )
 
-add_routes(
-    app,
-    ChatOpenAI(model="gpt-4o-mini").with_config(config),
-    path="/openai",
-)
+# add_routes(
+#     app,
+#     ChatOpenAI(model="gpt-4o-mini").with_config(config),
+#     path="/openai",
+# )
 
 
 add_routes(
@@ -45,15 +45,15 @@ add_routes(
 )
 
 
-@app.post("/chain/pdf_rag")
-async def handle_query(query: str):
-    """
-    TBD
-    """
-    # Process the input through the RAG chain
-    result = pdf_rag_chain.invoke(query)
+# @app.post("/chain/pdf_rag")
+# async def handle_query(query: str):
+#     """
+#     TBD
+#     """
+#     # Process the input through the RAG chain
+#     result = pdf_rag_chain.invoke(query)
 
-    return {"response": result}
+#     return {"response": result}
 
 
 add_routes(
