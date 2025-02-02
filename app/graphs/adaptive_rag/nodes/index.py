@@ -124,7 +124,7 @@ def get_faiss_vector_store(path, reload=True, save_local=True):
     return faissvectorstore
 
 
-vectorstore = get_faiss_vector_store("./documents/levisbk/")
+vectorstore = get_faiss_vector_store("./documents/med_clinic/")
 retriever = vectorstore.as_retriever()
 
 
