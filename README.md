@@ -62,7 +62,7 @@ This use case demonstrates a simple Retrieval-Augmented Generation (RAG) system 
 
 ### 2. Adaptive RAG
 
-![Adaptive RAG](./docs/images/adaptive.png)
+![Adaptive RAG](./docs/images/adaptive_rag.png)
 
 This use case showcases a more complex RAG system that incorporates self-reflection and uses **LangGraph** to adaptively refine responses based on the retrieved information.
 
