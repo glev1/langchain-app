@@ -16,5 +16,3 @@ langchainhub==0.1.21
 chromadb==0.5.3
 tavily-python==0.3.9
 beautifulsoup4==4.12.3
-
-mlflow==2.15.1

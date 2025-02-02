@@ -5,7 +5,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 
 from vectorstores.faiss import get_faiss_vector_store
 
-vectorstore = get_faiss_vector_store("./documents/nike_form_2023/")
+vectorstore_path = "./documents/nike_form_2023/"
+vectorstore = get_faiss_vector_store(vectorstore_path)
 retriever = vectorstore.as_retriever()
 
 # Model
@@ -30,6 +31,6 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-# Chain
+# Create the Question Answer Chain
 question_answer_chain = create_stuff_documents_chain(llm, prompt)
 pdf_rag_chain = create_retrieval_chain(retriever, question_answer_chain)
